@@ -17,4 +17,13 @@ class Solution {
         }
         return result.toString();
     }
+
+    //Using Streams
+    // public String mergeAlternately(String word1, String word2) {
+    //     int maxLength=Math.max(word1.length(),word2.length());
+
+    //     return IntStream.range(0,maxLength)
+    //     .mapToObj(i->(i<word1.length()?String.valueOf(word1.charAt(i)):"")
+    //     +(i<word2.length()?String.valueOf(word2.charAt(i)):"")).collect(Collectors.joining());
+    // }
 }
